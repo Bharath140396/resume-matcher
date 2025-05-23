@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer, util
 import fitz  # PyMuPDF
 import os
 
+
 st.title("Resume Matcher")
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
